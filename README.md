@@ -3,7 +3,7 @@
 [![LeetCode](https://img.shields.io/badge/LeetCode-cibofdevs-blue.svg)](https://leetcode.com/cibofdevs/)
 
 
-> **Lists Solution of Algorithm**
+> **List Solution of Algorithms**
 
 |**Number**|**Algorithm**|**Solution**|**Time Complexity**|**Space Complexcity**|**Code**|
 |:--|:--|:--:|:--:|:--:|:--:|
