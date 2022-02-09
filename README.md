@@ -11,3 +11,4 @@
 |2|Two Sum|Easy|Optimal|O(n)|O(n)|[index.js](https://github.com/cibofdevs/faang-coding-interviews/blob/main/0001.two-sum/optimal-solution/index.js)|
 |3|Maximum Water Container|Medium|Brute Force|O(n<sup>2</sup>)|O(1)|[index.js](https://github.com/cibofdevs/faang-coding-interviews/blob/main/0002.maximum-water-container/brute-force/index.js)|
 |4|Maximum Water Container|Medium|Optimal|O(n)|O(n)|[index.js](https://github.com/cibofdevs/faang-coding-interviews/blob/main/0002.maximum-water-container/optimal-solution/index.js)|
+|5|Trapping Rainwater|Hard|Optimal|O(n<sup>2</sup>)|O(1)|[index.js](https://github.com/cibofdevs/faang-coding-interviews/blob/main/0003.trapping-rainwater/brute-force/index.js)|
