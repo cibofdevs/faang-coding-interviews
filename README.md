@@ -5,7 +5,7 @@
 
 > **List Solution of Algorithms**
 
-|**Number**|**Algorithm**|**Level**|**Solution**|**Time Complexity**|**Space Complexcity**|**Code**|**LeetCode**|
+|**Number**|**Algorithm**|**Level**|**Solution**|**Time Complexity**|**Space Complexcity**|**Code**|**LeetCode|
 |:--|:--|:--:|:--:|:--:|:--:|:--:|:--:|
 |1|Two Sum|Easy|Brute Force|O(n<sup>2</sup>)|O(1)|[solution.js](https://github.com/cibofdevs/faang-coding-interviews/blob/main/0001.two-sum/brute-force/solution.js)|https://leetcode.com/problems/two-sum|
 |2|Two Sum|Easy|Optimal|O(n)|O(n)|[solution.js](https://github.com/cibofdevs/faang-coding-interviews/blob/main/0001.two-sum/optimal-solution/solution.js)||
