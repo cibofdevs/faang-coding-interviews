@@ -3,7 +3,6 @@ const targetToFind = 11;
 
 const findTwoSum = function (nums, target) {
   const numsMap = {};
-  
   for (let p = 0; p < nums.length; p++) {
     const currentMapVal = numsMap[nums[p]];
     if (currentMapVal >= 0) {
