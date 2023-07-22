@@ -44,3 +44,114 @@ The Greatest Container: `9 and 8`
 > The `width`, Which is the distance between these two elements, by subtracting the indices, `5 - 1 = 4.`
 
 Result: `8 x 4 = 32`
+
+**Step 3: Figure out a solution without code** <br>
+
+```
+ 0  1  2  3  4 
+[7, 1, 2, 3, 9]
+ a           b
+```
+
+**Formula:** <br>
+area = l x w <br>
+(a, b) => `a` = left side, `b` = right side <br>
+area = min(a, b) x (b<sub>i</sub> - a<sub>i</sub>)
+
+**Process Looping 1:** <br>
+```
+ 0  1  2  3  4 
+[7, 1, 2, 3, 9]
+ a  b
+```
+
+```
+maxArea = 1
+
+min(7, 1) x (1 - 0)
+     1         1
+```
+
+---
+```
+ 0  1  2  3  4 
+[7, 1, 2, 3, 9]
+ a     b
+```
+
+```
+maxArea = 4
+
+min(7, 2) x (2 - 0)
+     2         2
+```
+
+---
+
+```
+ 0  1  2  3  4 
+[7, 1, 2, 3, 9]
+ a        b
+```
+
+```
+maxArea = 9
+
+min(7, 3) x (3 - 0)
+     3         3
+```
+
+---
+
+```
+ 0  1  2  3  4 
+[7, 1, 2, 3, 9]
+ a           b
+```
+
+```
+maxArea = 28
+
+min(7, 9) x (4 - 0)
+     7         4
+```
+
+**Process Looping 2:** <br>
+```
+ 0  1  2  3  4 
+[7, 1, 2, 3, 9]
+    a  b
+```
+
+```
+maxArea = 1
+
+min(1, 2) x (2 - 1)
+     1         1
+```
+
+---
+
+```
+ 0  1  2  3  4 
+[7, 1, 2, 3, 9]
+    a     b
+```
+
+```
+maxArea = 2
+
+min(1, 3) x (3 - 1)
+     1         2
+```
+
+___
+
+> the process so on and so forth
+
+---
+
+Result: `maxArea` is 28
+
+**Step 4: Write out our solution in code** <br>
+Please check the solutions inside `0002.container-with-most-water` folder
