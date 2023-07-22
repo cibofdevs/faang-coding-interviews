@@ -20,17 +20,25 @@ Array of integers: `[1, 3, 7, 9, 2]` <br>
 Target: `11` <br>
 Return: `[3, 4]`
 
+---
+
 Array of integers: `[1, 3, 7, 9, 2]` <br>
 Target: `25` <br>
 Return: `null`
+
+---
 
 Array of integers: `[]` <br>
 Target: `1` <br>
 Return: `null`
 
+---
+
 Array of integers: `[5]` <br>
 Target: `5` <br>
 Return: `null`
+
+---
 
 Array of integers: `[1, 6]` <br>
 Target: `7` <br>
