@@ -59,4 +59,4 @@ Result: `2 = 11 - 9`
 `result = 2` equal to `p2 = 2`, and return `[p1, p2] => [3, 4]`
 
 **Step 4: Write out our solution in code** <br>
-Please check the solutions inside `0001.two-sum` folder
+Please check the `01.two-sum` folder for brute force and optimal solutions

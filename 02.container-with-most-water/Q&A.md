@@ -154,4 +154,4 @@ ___
 Result: `maxArea` is 28
 
 **Step 4: Write out our solution in code** <br>
-Please check the solutions inside `0002.container-with-most-water` folder
+Please check the `02.container-with-most-water` folder for brute force and optimal solutions
