@@ -174,3 +174,13 @@ totalWater    : 8
 
 **Step 4: Write out our solution in code** <br>
 Please check the `03.trapping-rainwater` folder for brute force and optimal solutions
+
+---
+
+**Pseudocode for optimal solution:**
+1. Identify pointer with lesser value
+2. Is this pointer value greater than or equal to max on that side 
+   - yes -> update max on that side
+   - no -> get water for pointer value, add to total
+3. move pointer inwards
+4. repeat for other pointer
