@@ -26,3 +26,10 @@
 
 **Step 2: Write out some test cases** <br>
 
+| S          | T         | Result |
+|------------|-----------|--------|
+| `"ab#z"`   | `"az#z"`  | True   |
+| `"abc#d"`  | `"acc#c"` | False  |
+| `"x#y#z#"` | `"a#"`    | True   |
+| `"a###b"`  | `"b"`     | True   |
+| `"Ab#z"`   | `"ab#z"`  | False  |
