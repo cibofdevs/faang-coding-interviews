@@ -23,3 +23,64 @@
 | "cccccc"  | "cccccc"       | 1       |
 | ""        | ""             | 0       |
 | "abcbda"  | "ab`cbda`"     | 4       |
+
+**Step 3: Figure out a solution without code** <br>
+
+```
+Process 1:
+"abcbdca"
+ ---
+
+Longest = 3
+
+{
+    a,
+    b,
+    c
+}
+```
+
+```
+Process 2:
+"abcbdca"
+  -
+
+Longest = 3
+
+{
+    b,
+    c
+}
+```
+
+```
+Process 3:
+"abcbdca"
+   -
+
+Longest = 3
+
+{
+    c,
+    b,
+    d
+}
+```
+
+```
+Process 4:
+"abcbdca"
+    -
+
+Longest = 4
+
+{
+    b,
+    d,
+    c,
+    a
+}
+```
+
+**Step 4: Write out our solution in code** <br>
+Please check the `05.longest-substring-without-repeating-characters` folder for brute force and optimal solutions
