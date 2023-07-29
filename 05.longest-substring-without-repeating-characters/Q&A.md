@@ -8,18 +8,18 @@
 
     **Example:** <br />
 
-    | Substring                                           | Subsequence                                                                                    |
-    |-----------------------------------------------------|------------------------------------------------------------------------------------------------|
-    | <span style="color:orange">**<u>abc</u>**</span>bbd | <span style="color:green">**<u>abc</u>**</span>bb<span style="color:green">**<u>d</u>**</span> |
+    | Substring  | Subsequence  |
+    |------------|--------------|
+    | `abc`bbd   | `abc`bb`d`   |
 
 - Does case sensitivity matter? <br>
   > No, assume all characters in the string are lowercase
 
 **Step 2: Write out some test cases** <br>
 
-| String                                                                                    | Longest |
-|-------------------------------------------------------------------------------------------|---------|
-| "<span style="color:blue"><u>abc</u></span><span style="color:purple"><u>cab</u></span>b" | 3       |
-| "cccccc"                                                                                  | 1       |
-| ""                                                                                        | 0       |
-| "ab<span style="color:blue"><u>cbda</u></span>"                                           | 4       |
+| Original  | Result         | Longest |
+|-----------|----------------|---------|
+| "abccabb" | "`abc` `cab`b" | 3       |
+| "cccccc"  | "cccccc"       | 1       |
+| ""        | ""             | 0       |
+| "abcbda"  | "ab`cbda`"     | 4       |
