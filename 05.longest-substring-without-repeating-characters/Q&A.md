@@ -43,7 +43,7 @@ Longest = 3
 ```
 Process 2:
 "abcbdca"
-  -
+  --
 
 Longest = 3
 
@@ -56,7 +56,7 @@ Longest = 3
 ```
 Process 3:
 "abcbdca"
-   -
+   ---
 
 Longest = 3
 
@@ -70,7 +70,7 @@ Longest = 3
 ```
 Process 4:
 "abcbdca"
-    -
+    ----
 
 Longest = 4
 
